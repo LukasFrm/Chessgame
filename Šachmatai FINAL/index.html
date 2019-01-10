@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chess by Lukas Freimonas</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+<body>
+    <div class="game">
+            <div class="board"></div>
+           <div class="rankstext1">12345678</div> 
+            <div class="filestext1">abcdefgh</div> 
+            <div class="game-information">
+                <div id="timer-black">  </div>
+                <div id="timer-white">  </div>
+                <div class="move-history"> 
+                    <div class="white"> Black Moves
+                        <div id="white"> </div>
+                    </div>
+                    <div class="black"> White Moves
+                        <div id="black"> </div>
+                    </div>
+                </div>
+                <div class="actions">
+                    <div class="start">Start Game</div>
+                    <div class="pause">Pause</div>
+                    <div class="reset">Reset</div>
+                </div>
+            </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/actions.js"></script>
+</body>
+</html>
